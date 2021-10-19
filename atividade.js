@@ -88,3 +88,54 @@ for(var i =1; i<=10; i++) ///tabuada do 4///
 //////////////// ATIVIDADE PRESENCIAL /////////////////
 
 /// Algoritmo////
+
+const Listadepecas = ['pecas de teste','AB','peca B']
+console.log('quantidade de caracteres')
+
+if(Listadepecas.length <= 10)
+{
+}
+console.log('as pecas podem ser cadastradas');
+ for(let index = 0; index < Listadepecas.length; index++)
+ {
+     const pecaatual = Listadepecas[index];
+     if(pecaatual.length < 3)
+     {
+         console.log(pecaatual + ':a peça possui nome inferior a 3 caracteres e não pode ser cadastrada')
+     }
+     else{
+         console.log(pecaatual + ':a peça pode ser cadastrada')
+     }
+ }
+
+console.log('peso de peça')
+
+const pesodapecaemgramas = 50;
+if (pesodapecaemgramas >= 100){
+    console.log('peso suficiente')
+}
+else
+{
+    console.log('valor insuficiente')
+}
+
+////////////////Situação-problema////////////////////
+
+const quantidadedealunos = 14;
+
+for(let dex = 0; dex <= quantidadedealunos; dex++)
+{
+    if(dex == 0)
+    {
+        console.log('numero é 0');
+    }
+    else if(dex % 2 == 0)
+    {
+        console.log('o numero é par' + dex);
+    }
+    else
+    {
+      console.log('o numero é impar' + dex);
+    }
+}
+    
